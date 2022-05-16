@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelUserStore">
-    <attachedFolders>
-      <Path>../../../AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.xr.legacyinputhelpers@2.1.7</Path>
-    </attachedFolders>
+    <attachedFolders />
     <explicitIncludes>
       <Path>../../../AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.xr.legacyinputhelpers@2.1.7</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.13.5</Path>
