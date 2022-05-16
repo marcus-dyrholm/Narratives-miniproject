@@ -24,9 +24,9 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 799432b58386306488cfd7a19e7ff4d7, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: eb93db292649e4e47aca6e75254ca039, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -651,9 +651,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grabbable: {fileID: 3937929251803357950}
-  collisionDetection1: {fileID: 115811070}
-  collisionDetection2: {fileID: 764903472}
+  RightCollider: {fileID: 115811070}
+  LeftCollider: {fileID: 764903472}
+  RightSideVideo: {fileID: 32900000, guid: 122de725a95b6f247b5d7df0149b408e, type: 3}
+  LeftSideVideo: {fileID: 32900000, guid: 1e3fcc5c1d73cde47bf90811876225a7, type: 3}
+  skybox: {fileID: 0}
   anim: {fileID: 764441561}
+  videoPlayer: {fileID: 649061183}
 --- !u!1001 &295939165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1216,7 +1220,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649061182}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 122de725a95b6f247b5d7df0149b408e, type: 3}
+  m_VideoClip: {fileID: 0}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1235,7 +1239,7 @@ VideoPlayer:
   - 1
   m_Url: 
   m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
+  m_DirectAudioMutes: 01
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
@@ -3747,6 +3751,7 @@ GameObject:
   - component: {fileID: 3937929251803357950}
   - component: {fileID: 3937929251803357953}
   - component: {fileID: 3937929251803357951}
+  - component: {fileID: 3937929251803357954}
   m_Layer: 0
   m_Name: Bottle
   m_TagString: Object
@@ -3828,6 +3833,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3937929251803357954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3937929251803357949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6853672d44ec182458dd0f743bce21e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGrabbed: 1
 --- !u!23 &5399104366930735105
 MeshRenderer:
   m_ObjectHideFlags: 0

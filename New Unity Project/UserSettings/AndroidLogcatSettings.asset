@@ -1,37 +1,13 @@
 {
     "m_SelectedDeviceId": "1WMHHB61VF1507",
     "m_SelectedPackage": {
-        "deviceId": "1WMHHB61VF1507",
-        "name": "com.DidStuffLab.NarrativesMiniproject",
-        "processId": 13012,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "1WMHHB61VF1507",
-            "name": "com.oculus.shellenv",
-            "processId": 3033,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHHB61VF1507",
-            "name": "com.DidStuffLab.NarrativesMiniproject",
-            "processId": 10482,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHHB61VF1507",
-            "name": "com.DidStuffLab.NarrativesMiniproject",
-            "processId": 10877,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHHB61VF1507",
-            "name": "com.DidStuffLab.NarrativesMiniproject",
-            "processId": 11356,
-            "exited": true
-        },
         {
             "deviceId": "1WMHHB61VF1507",
             "name": "com.DidStuffLab.NarrativesMiniproject",
@@ -48,6 +24,24 @@
             "deviceId": "1WMHHB61VF1507",
             "name": "com.DidStuffLab.NarrativesMiniproject",
             "processId": 13012,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.DidStuffLab.NarrativesMiniproject",
+            "processId": 13935,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.oculus.os.vrusb",
+            "processId": 16243,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.oculus.shellenv",
+            "processId": 3034,
             "exited": false
         }
     ],
