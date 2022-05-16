@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="220f54c5-6190-4d02-a1b3-28468d1e809f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeTexture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeTexture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narratives.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narratives.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SkyboxBlend.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SkyboxBlend.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skybox_Dual Panoramic.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skybox_Dual Panoramic.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +26,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/BlendingSkybox.shader" />
-        <option value="$PROJECT_DIR$/Assets/SkyboxBlend.shader" />
         <option value="$PROJECT_DIR$/Assets/ChangeTexture.cs" />
+        <option value="$PROJECT_DIR$/Assets/SkyboxBlend.shader" />
       </list>
     </option>
   </component>
@@ -76,7 +74,8 @@
       <workItem from="1651496592033" duration="2253000" />
       <workItem from="1652692917195" duration="1239000" />
       <workItem from="1652695087971" duration="762000" />
-      <workItem from="1652695884468" duration="1285000" />
+      <workItem from="1652695884468" duration="1927000" />
+      <workItem from="1652701592234" duration="5861000" />
     </task>
     <servers />
   </component>
@@ -100,5 +99,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="430" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1652706694971">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="430" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1652706694971" />
   </component>
 </project>
