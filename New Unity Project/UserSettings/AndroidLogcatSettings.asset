@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "1WMHHB61VF1507",
         "name": "com.DidStuffLab.NarrativesMiniproject",
-        "processId": 19349,
+        "processId": 13012,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,25 +11,43 @@
         {
             "deviceId": "1WMHHB61VF1507",
             "name": "com.oculus.shellenv",
-            "processId": 1828,
+            "processId": 3033,
             "exited": false
         },
         {
             "deviceId": "1WMHHB61VF1507",
             "name": "com.DidStuffLab.NarrativesMiniproject",
-            "processId": 15959,
-            "exited": false
+            "processId": 10482,
+            "exited": true
         },
         {
             "deviceId": "1WMHHB61VF1507",
             "name": "com.DidStuffLab.NarrativesMiniproject",
-            "processId": 18380,
-            "exited": false
+            "processId": 10877,
+            "exited": true
         },
         {
             "deviceId": "1WMHHB61VF1507",
             "name": "com.DidStuffLab.NarrativesMiniproject",
-            "processId": 19349,
+            "processId": 11356,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.DidStuffLab.NarrativesMiniproject",
+            "processId": 12096,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.DidStuffLab.NarrativesMiniproject",
+            "processId": 12547,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.DidStuffLab.NarrativesMiniproject",
+            "processId": 13012,
             "exited": false
         }
     ],

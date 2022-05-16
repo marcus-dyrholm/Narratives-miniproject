@@ -7,6 +7,7 @@ public class ObjCollisionDetection : MonoBehaviour
 {
     private Renderer _renderer;
     private Color _savedColor;
+    public bool isColliding;
 
     private void Start()
     {
@@ -20,11 +21,13 @@ public class ObjCollisionDetection : MonoBehaviour
         {
             _renderer.material.SetColor("_TintColor", Color.magenta);
             Debug.Log("aslmdadm");
+            isColliding = true;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
         _renderer.material.SetColor("_TintColor", _savedColor);
+        isColliding = false;
     }
 }
