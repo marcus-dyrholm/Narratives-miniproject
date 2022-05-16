@@ -1,9 +1,3 @@
-/* 
-Source: 
-Shaun Tonstad
-https://gist.github.com/stonstad/28346c2b9d6668a2d697564a2e9909b9 
-*/
-
 Shader "Skybox/Dual Panoramic" {
 	Properties{
 		_Tint1("Tint Color 1", Color) = (.5, .5, .5, .5)

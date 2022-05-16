@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Marcus\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Marcus\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_New Unity Project.-1815384967.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Marcus\Documents\Skole\Narratives\Narratives-miniproject\New Unity Project" t="IncludeRecursive">
+    <e p="C:\Narratives-miniproject-69e602c8d424c3e2aba5f71609aabc05ce5574bd\New Unity Project" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -12,6 +10,7 @@
         </e>
         <e p="ChangeTexture.cs" t="Include" />
         <e p="GrabTesting.cs" t="Include" />
+        <e p="Manager.cs" t="Include" />
         <e p="Narratives Script" t="Include">
           <e p="ObjCollisionDetection.cs" t="Include" />
           <e p="ObjectGrabbed.cs" t="Include" />
@@ -1641,5 +1640,7 @@
       <e p="VoiceSDK.Editor.csproj" t="IncludeRecursive" />
       <e p="VoiceSDK.Runtime.csproj" t="IncludeRecursive" />
     </e>
+    <e p="C:\Users\Marcus\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Marcus\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_New Unity Project.945165605.00" t="ExcludeRecursive" />
   </component>
 </project>

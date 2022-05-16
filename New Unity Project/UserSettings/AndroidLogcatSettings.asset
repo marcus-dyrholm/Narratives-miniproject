@@ -1,25 +1,13 @@
 {
     "m_SelectedDeviceId": "1WMHHB61VF1507",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "1WMHHB61VF1507",
+        "name": "com.DidStuffLab.NarrativesMiniproject",
+        "processId": 20260,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "1WMHHB61VF1507",
-            "name": "com.DidStuffLab.NarrativesMiniproject",
-            "processId": 12096,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHHB61VF1507",
-            "name": "com.DidStuffLab.NarrativesMiniproject",
-            "processId": 12547,
-            "exited": true
-        },
         {
             "deviceId": "1WMHHB61VF1507",
             "name": "com.DidStuffLab.NarrativesMiniproject",
@@ -29,19 +17,79 @@
         {
             "deviceId": "1WMHHB61VF1507",
             "name": "com.DidStuffLab.NarrativesMiniproject",
-            "processId": 13935,
+            "processId": 7701,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.DidStuffLab.NarrativesMiniproject",
+            "processId": 10167,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.DidStuffLab.NarrativesMiniproject",
+            "processId": 10781,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.DidStuffLab.NarrativesMiniproject",
+            "processId": 11542,
             "exited": true
         },
         {
             "deviceId": "1WMHHB61VF1507",
             "name": "com.oculus.os.vrusb",
-            "processId": 16243,
-            "exited": true
+            "processId": 9774,
+            "exited": false
         },
         {
             "deviceId": "1WMHHB61VF1507",
             "name": "com.oculus.shellenv",
-            "processId": 3034,
+            "processId": 3123,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.DidStuffLab.NarrativesMiniproject",
+            "processId": 13046,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.DidStuffLab.NarrativesMiniproject",
+            "processId": 13686,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.DidStuffLab.NarrativesMiniproject",
+            "processId": 14316,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.DidStuffLab.NarrativesMiniproject",
+            "processId": 16266,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.DidStuffLab.NarrativesMiniproject",
+            "processId": 17438,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.DidStuffLab.NarrativesMiniproject",
+            "processId": 18467,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB61VF1507",
+            "name": "com.DidStuffLab.NarrativesMiniproject",
+            "processId": 20260,
             "exited": false
         }
     ],

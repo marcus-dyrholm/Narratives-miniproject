@@ -8,7 +8,15 @@ using UnityEngine.Video;
 
 public class ObjectGrabbed : MonoBehaviour
 {
+    public bool isInControl;
+
+    public Manager manager;
+
+    public int index;
+    
     public OVRGrabbable grabbable;
+
+    public GrabTesting grabTesting;
     
     public ObjCollisionDetection RightCollider;
     public ObjCollisionDetection LeftCollider;
@@ -16,7 +24,7 @@ public class ObjectGrabbed : MonoBehaviour
     public VideoClip RightSideVideo;
     public VideoClip LeftSideVideo;
 
-    private bool lerpToVideo;
+    public bool lerpToVideo;
 
     public Material skybox;
 
@@ -35,15 +43,32 @@ public class ObjectGrabbed : MonoBehaviour
 
     private void Update()
     {
+
         if (grabbable.isGrabbed)
         {
             OnGrab();
         }
-        else if (!grabbable.isGrabbed)
+        else if (!grabbable.isGrabbed && isInControl)
         {
             OnRelese();
         }
 
+        if (grabTesting != null)
+        {
+            if (grabTesting.isGrabbed)
+            {
+                OnGrab();
+            }
+            else if (!grabTesting.isGrabbed && isInControl)
+            {
+                OnRelese();
+            }
+        }
+        
+        if (!isInControl)
+        {
+            return;
+        }
         if (RightCollider.isColliding)
         {
             ChangeVideo(RightSideVideo);
@@ -52,11 +77,6 @@ public class ObjectGrabbed : MonoBehaviour
         else if(LeftCollider.isColliding)
         {
              ChangeVideo(LeftSideVideo);
-        }
-
-        if (!LeftCollider.isColliding && !RightCollider.isColliding)
-        {
-            lerpToVideo = false;
         }
 
         if (lerpToVideo)
@@ -80,6 +100,7 @@ public class ObjectGrabbed : MonoBehaviour
 
     void OnGrab()
     {
+        manager.SetAsInControl(index);
         anim.SetBool("Start", true);
     }
 

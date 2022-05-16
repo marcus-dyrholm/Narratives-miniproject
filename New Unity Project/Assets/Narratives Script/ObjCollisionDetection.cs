@@ -9,10 +9,13 @@ public class ObjCollisionDetection : MonoBehaviour
     private Color _savedColor;
     public bool isColliding;
 
+    public ObjectGrabbed objectGrabbed;
+
     private void Start()
     {
         _renderer = this.GetComponent<Renderer>();
         _savedColor = _renderer.material.GetColor("_TintColor");
+        objectGrabbed = transform.parent.GetComponent<ObjectGrabbed>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -27,7 +30,13 @@ public class ObjCollisionDetection : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        _renderer.material.SetColor("_TintColor", _savedColor);
-        isColliding = false;
+        if (other.tag == "Object")
+        {
+            _renderer.material.SetColor("_TintColor", _savedColor);
+            isColliding = false;
+
+            objectGrabbed.lerpToVideo = false;
+        }
+
     }
 }

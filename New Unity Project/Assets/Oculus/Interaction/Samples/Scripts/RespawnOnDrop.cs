@@ -46,23 +46,28 @@ namespace Oculus.Interaction.Samples
         {
             if (transform.position.y < _yThresholdForRespawn)
             {
-                transform.position = _initialPosition;
-                transform.rotation = _initialRotation;
-                transform.localScale = _initialScale;
-
-                if (_rigidBody)
-                {
-                    _rigidBody.velocity = Vector3.zero;
-                    _rigidBody.angularVelocity = Vector3.zero;
-                }
-
-                foreach (var freeTransformer in _freeTransformers)
-                {
-                    freeTransformer.MarkAsBaseScale();
-                }
-
-                _whenRespawned.Invoke();
+                ResetPosition();
             }
+        }
+
+        public void ResetPosition()
+        {
+            transform.position = _initialPosition;
+            transform.rotation = _initialRotation;
+            transform.localScale = _initialScale;
+
+            if (_rigidBody)
+            {
+                _rigidBody.velocity = Vector3.zero;
+                _rigidBody.angularVelocity = Vector3.zero;
+            }
+
+            foreach (var freeTransformer in _freeTransformers)
+            {
+                freeTransformer.MarkAsBaseScale();
+            }
+
+            _whenRespawned.Invoke();
         }
     }
 }
